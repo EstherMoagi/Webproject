@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<!-- E. Moagi (2021390741) -->
+<!-- CSIS1664 (2023,activities page) -->
+<!-- Filename: index.html -->
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <title>Activities</title>
+	  <link rel = "stylesheet" href = "styles/normalize.css">
+	  <link rel = "stylesheet"  href = "styles/main.css">
+	</head>
+   <body>
+		<!-- Header -->
+	    <header>
+			<a href="index.html"><img src="images/logo.png" alt="logo of Get well with Esther" height="200" width="200"></a>
+		</header>
+		<!-- Navigation  -->
+		<nav id="nav_menu">
+		   <p>
+			 <a href="index.html">Home</a>&nbsp;&nbsp;
+			 <a id="current" href="activities.html">Activities</a>&nbsp;&nbsp;
+			 <a href="food.html">Food</a>&nbsp;&nbsp;
+			 <a href="exercises.html">Exercises</a>&nbsp;&nbsp;
+			 <a href="services.html">Services</a>&nbsp;&nbsp;
+			 <a href="bookings.html">Bookings</a>&nbsp;&nbsp;
+			 <a href="contact.html">Contact</a>&nbsp;&nbsp;
+			 <a href="sign-up.html">Sign-Up</a>&nbsp;&nbsp;
+		   <p>
+		</nav>
+	
+		<!-- Main -->
+	   <main>
+	   
+         <h2>What we do</h2>
+		    <p>We make sure people get the right exercises and diet.
+		      For you to be healthy ,you can try one of the following.
+              and for more of this exercises and right food to eat,
+			  you could go to thier specific pages for them.			  
+			    <ul>
+			      <li>You can jog or run 11 miles a week.
+				  <ul>
+				  <li>Jog slow , do not run.</li>
+				  </ul>
+				  </li>
+                  <li>Sleep 6 to 8 hours every night.</li>
+                  <li>Take a walk or do any activities that does not include electronics or a bright screen.
+				  <ul>
+				  <li>leave electronics safely at home.</li>
+				  <li>only exercising electronics are acceptable.</li>
+				  </ul>
+				  </li>
+		          <li>Make sure you eat your Vegetables(greens)and fruits.</li>
+		          <li> An apple is one of the best friuts to keep you healthy.</li>
+			      <li> Drink atleast 5 glasses of water everyday.</li>
+				</ul>
+		    </p>
+        </main>
+    <!-- Footer -->
+    <footer>
+        <p>
+         Created by:
+         <a href="../myindex.html">E.Moagi</a>
+         </p>
+         &copy;2023 Get Healthy With Esther.
+        </p>
+      </footer>
+   </div>
+  </body>
+</html>

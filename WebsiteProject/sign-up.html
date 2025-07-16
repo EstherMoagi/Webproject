@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<!-- E. Moagi (2021390741) -->
+<!-- CSIS1664 (2023) -->
+<!-- Filename: index.html -->
+
+<html lang="en">
+<!-- Header -->
+	<head>
+		<meta charset="utf-8">
+		<title>Sign-Up</title>
+		<link rel = "stylesheet" href = "styles/normalize.css">
+		<link rel = "stylesheet" href = "styles/main.css">	
+		<style>
+		 input[type="submit"], input[type="reset"]{
+			border:1px solid black;
+			padding: 10px;
+			border-radius: 5px;
+		 }
+		 input[type="submit"]{
+			background:#195457;
+			color: white;
+		 }
+		 </style>
+	</head> 
+	<body>
+	
+		<header>
+			<a href="index.html"><img src="images/logo.png" alt="logo of Get well with Esther" height="200" width="200"></a>
+		</header>
+   
+		<!-- Navigation  -->
+		<nav id="nav_menu">
+		   <p>
+			 <a href="index.html">Home</a>&nbsp;&nbsp;
+			 <a href="activities.html">Activities</a>&nbsp;&nbsp;
+			 <a href="food.html">Food</a>&nbsp;&nbsp;
+			 <a href="exercises.html">Exercises</a>&nbsp;&nbsp;
+			 <a href="services.html">Services</a>&nbsp;&nbsp;
+			 <a href="bookings.html">Bookings</a>&nbsp;&nbsp;
+			 <a href="contact.html">Contact</a>&nbsp;&nbsp;
+			 <a id="current" href="sign-up.html">Sign-Up</a>&nbsp;&nbsp;
+		   <p>
+		</nav>
+
+		<!-- Main content -->
+		<main>
+			<h1>Extra Training</h1>
+			<p>
+				If you want extra training,you can fill in this form.
+			</p>
+			
+			<h2>Details</h2>
+			<form action="thankyou.html" method="get">
+				
+				<!--Full Name-->
+				<p>
+					<label for="name">Full name: </label>
+					<input type="text" id="text" name="name" required>
+					
+				</p>
+				<!--Email-->
+				<p>
+					<label for="email">Email: </label>
+					<input type="email" id="email" name="email" required>				
+				</p>
+				<!--Donation amount-->
+				<p>
+					<label for="training-amount">Training amount (ZAR):</label>
+					<input type="number" id="training-amount" name="training-amount" min="10" autofocus required>
+				</p>
+				
+				<!--Payment Method-->
+				<p>
+					<label for="payment">Payment method:</label>
+					<select id="payment" name="payment">
+						<option value="card">Credit Card</option>
+						<option value="bank">Bank Transfer</option>
+						<option value="paypal">PayPal</option>
+						</select>
+				</p>
+				<!--Radio buttons for age--> 
+				<fieldset>
+					<legend>Age</legend>
+						<input type="radio" id="old" name="age" value="old"checked>
+						<label for="young">18-47</label>
+						<br>
+						<input type="radio" id="old" name="age" value="old">
+						<label for="old">47-64</label>
+						<br>
+						<input type="radio" id="older" name="age" value="older">
+						<label for="older">64-older</label>
+				</fieldset>
+				<!--Radio buttons for gender--> 
+				<fieldset>
+					<legend>Gender</legend>
+						<input type="radio" id="male" name="gender" value="male"checked>
+						<label for="male">Male</label>
+						<br>
+						<input type="radio" id="female" name="gender" value="female">
+						<label for="female">Female</label>
+						<br>
+						<input type="radio" id="other" name="gender" value="other">
+						<label for="other">Other</label>
+				</fieldset>
+				<p>
+					<input type="submit" value="Transaction">
+					<input type="reset" value="Clear">
+				</p>
+			</form>
+		
+		</main>
+		       </main>
+ <!-- Footer -->
+    <footer>
+        <p>
+         Created by:
+         <a href="../myindex.html">E.Moagi</a>
+         </p>
+         &copy;2023 Get Healthy With Esther.
+        </p>
+      </footer>
+   </div>
+  </body>
+</html>
