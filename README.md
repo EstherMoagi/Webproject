@@ -15,7 +15,7 @@ This website is about geting healthy , for both young and old , it has tips on e
 
 ## Installation & Setup
 1. Clone the repository:
-   '''bash
-   git clone https://github.com/EstherMoagi/Webproject-.git
+   bash
+   git clone https://github.com/EstherMoagi/Webproject
 ## ( Alternative ) how to open it 
 double click on the index.html to open website , from there navigate though the website.
