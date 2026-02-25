@@ -13,7 +13,7 @@ This website is about geting healthy , for both young and old , it has tips on e
 - HTML
 - CSS
 
-## 📂 Installation & Setup
+## Installation & Setup
 1. Clone the repository:
    '''bash
    git clone https://github.com/EstherMoagi/Webproject-.git
